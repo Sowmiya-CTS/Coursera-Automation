@@ -40,7 +40,7 @@ public class CustomHTMLListener implements ITestListener{
 	      test = extent.createTest(result.getName());
 	      test.log(Status.PASS , "Test case passed results : "+result.getName());
 	      
-	      //ScreenShot.takeScreenshot(result.getName());
+	      
 		  test.info("Test Completed");
 	  }
 	  

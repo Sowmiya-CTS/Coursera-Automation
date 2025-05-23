@@ -2,24 +2,12 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-19T09:52:34 IST" name="MultiBrowserSuite" finished-at="2025-05-19T09:53:44 IST" duration-ms="69568">
+  <suite started-at="2025-05-22T16:53:44 IST" name="MultiBrowserSuite" finished-at="2025-05-22T16:54:37 IST" duration-ms="52630">
     <groups>
-      <group name="regression">
-        <method signature="CourseraTestNG.testWebDevelopmentCourses()[pri:1, instance:testing.CourseraTestNG@652a7737]" name="testWebDevelopmentCourses" class="testing.CourseraTestNG"/>
-        <method signature="CourseraTestNG.testLanguageLearningCourses()[pri:2, instance:testing.CourseraTestNG@652a7737]" name="testLanguageLearningCourses" class="testing.CourseraTestNG"/>
-        <method signature="CourseraTestNG.testFormValidation()[pri:3, instance:testing.CourseraTestNG@652a7737]" name="testFormValidation" class="testing.CourseraTestNG"/>
-        <method signature="CourseraTestNG.testWebDevelopmentCourses()[pri:1, instance:testing.CourseraTestNG@1c80e49b]" name="testWebDevelopmentCourses" class="testing.CourseraTestNG"/>
-        <method signature="CourseraTestNG.testLanguageLearningCourses()[pri:2, instance:testing.CourseraTestNG@1c80e49b]" name="testLanguageLearningCourses" class="testing.CourseraTestNG"/>
-        <method signature="CourseraTestNG.testFormValidation()[pri:3, instance:testing.CourseraTestNG@1c80e49b]" name="testFormValidation" class="testing.CourseraTestNG"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="CourseraTestNG.testHomePageLoad()[pri:0, instance:testing.CourseraTestNG@652a7737]" name="testHomePageLoad" class="testing.CourseraTestNG"/>
-        <method signature="CourseraTestNG.testHomePageLoad()[pri:0, instance:testing.CourseraTestNG@1c80e49b]" name="testHomePageLoad" class="testing.CourseraTestNG"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-05-19T09:52:34 IST" name="ChromeTests" finished-at="2025-05-19T09:53:42 IST" duration-ms="68436">
+    <test started-at="2025-05-22T16:53:44 IST" name="ChromeTests" finished-at="2025-05-22T16:54:36 IST" duration-ms="52070">
       <class name="testing.CourseraTestNG">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-19T09:52:35 IST" name="setUp" finished-at="2025-05-19T09:52:47 IST" duration-ms="12229" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-22T16:53:45 IST" name="setUp" finished-at="2025-05-22T16:53:57 IST" duration-ms="12524" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,31 +18,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomePageLoad()[pri:0, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-19T09:52:47 IST" name="testHomePageLoad" finished-at="2025-05-19T09:52:49 IST" duration-ms="2062" status="PASS">
+        <test-method signature="testHomePageLoad()[pri:0, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-22T16:53:57 IST" name="testHomePageLoad" finished-at="2025-05-22T16:53:59 IST" duration-ms="2029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageLoad -->
-        <test-method signature="testWebDevelopmentCourses()[pri:1, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-19T09:52:49 IST" name="testWebDevelopmentCourses" finished-at="2025-05-19T09:53:07 IST" duration-ms="17438" status="PASS">
+        <test-method signature="testWebDevelopmentCourses()[pri:1, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-22T16:53:59 IST" name="testWebDevelopmentCourses" finished-at="2025-05-22T16:54:14 IST" duration-ms="15232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebDevelopmentCourses -->
-        <test-method signature="testLanguageLearningCourses()[pri:2, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-19T09:53:12 IST" name="testLanguageLearningCourses" finished-at="2025-05-19T09:53:13 IST" duration-ms="1052" status="PASS">
+        <test-method signature="testLanguageLearningCourses()[pri:2, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-22T16:54:14 IST" name="testLanguageLearningCourses" finished-at="2025-05-22T16:54:15 IST" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLanguageLearningCourses -->
-        <test-method signature="testFormValidation()[pri:3, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-19T09:53:16 IST" name="testFormValidation" finished-at="2025-05-19T09:53:36 IST" duration-ms="19222" status="PASS">
+        <test-method signature="testFormValidation()[pri:3, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-22T16:54:15 IST" name="testFormValidation" finished-at="2025-05-22T16:54:30 IST" duration-ms="15031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFormValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-19T09:53:36 IST" name="tearDown" finished-at="2025-05-19T09:53:42 IST" duration-ms="6563" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.CourseraTestNG@652a7737]" started-at="2025-05-22T16:54:30 IST" name="tearDown" finished-at="2025-05-22T16:54:36 IST" duration-ms="6195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testing.CourseraTestNG -->
     </test> <!-- ChromeTests -->
-    <test started-at="2025-05-19T09:52:34 IST" name="EdgeTests" finished-at="2025-05-19T09:53:44 IST" duration-ms="69568">
+    <test started-at="2025-05-22T16:53:44 IST" name="EdgeTests" finished-at="2025-05-22T16:54:37 IST" duration-ms="52630">
       <class name="testing.CourseraTestNG">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-19T09:52:35 IST" name="setUp" finished-at="2025-05-19T09:52:48 IST" duration-ms="13770" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-22T16:53:45 IST" name="setUp" finished-at="2025-05-22T16:53:55 IST" duration-ms="10428" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,23 +53,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomePageLoad()[pri:0, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-19T09:52:48 IST" name="testHomePageLoad" finished-at="2025-05-19T09:52:50 IST" duration-ms="2030" status="PASS">
+        <test-method signature="testHomePageLoad()[pri:0, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-22T16:53:55 IST" name="testHomePageLoad" finished-at="2025-05-22T16:53:57 IST" duration-ms="2042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageLoad -->
-        <test-method signature="testWebDevelopmentCourses()[pri:1, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-19T09:52:51 IST" name="testWebDevelopmentCourses" finished-at="2025-05-19T09:53:17 IST" duration-ms="25822" status="PASS">
+        <test-method signature="testWebDevelopmentCourses()[pri:1, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-22T16:53:57 IST" name="testWebDevelopmentCourses" finished-at="2025-05-22T16:54:13 IST" duration-ms="15759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWebDevelopmentCourses -->
-        <test-method signature="testLanguageLearningCourses()[pri:2, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-19T09:53:17 IST" name="testLanguageLearningCourses" finished-at="2025-05-19T09:53:18 IST" duration-ms="859" status="PASS">
+        <test-method signature="testLanguageLearningCourses()[pri:2, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-22T16:54:13 IST" name="testLanguageLearningCourses" finished-at="2025-05-22T16:54:14 IST" duration-ms="749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLanguageLearningCourses -->
-        <test-method signature="testFormValidation()[pri:3, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-19T09:53:18 IST" name="testFormValidation" finished-at="2025-05-19T09:53:35 IST" duration-ms="17336" status="PASS">
+        <test-method signature="testFormValidation()[pri:3, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-22T16:54:14 IST" name="testFormValidation" finished-at="2025-05-22T16:54:29 IST" duration-ms="15439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFormValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-19T09:53:36 IST" name="tearDown" finished-at="2025-05-19T09:53:44 IST" duration-ms="7894" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.CourseraTestNG@1c80e49b]" started-at="2025-05-22T16:54:29 IST" name="tearDown" finished-at="2025-05-22T16:54:37 IST" duration-ms="7733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

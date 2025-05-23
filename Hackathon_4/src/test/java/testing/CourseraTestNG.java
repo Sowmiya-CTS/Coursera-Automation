@@ -36,7 +36,7 @@ public class CourseraTestNG {
     @BeforeClass
     @Parameters("browser")
     public void setUp(String browser) {
-//    	System.out.println("Hello insider");
+
     	if (browser.equalsIgnoreCase("edge")) {
             driver = new EdgeDriver();
         	
@@ -56,18 +56,17 @@ public class CourseraTestNG {
         new ScreenShot(driver);
     }
     
-    //Smoke suite
-    @Test( groups={"smoke"})
+   
+    @Test
     public void testHomePageLoad() throws InterruptedException {
-//    	System.out.println("Hello");
     	Thread.sleep(2000);  
     	Assert.assertEquals(driver.getTitle(), "Coursera | Degrees, Certificates, & Free Online Courses");
     }
     
 
-	//Regression Suite
+	
 
-    @Test(priority=1, groups= {"regression"})
+    @Test(priority=1)
     public void testWebDevelopmentCourses() {
     	String courese_name=ph.getCourseName();
     	webdevcourse.searchCourses(courese_name);
@@ -78,14 +77,14 @@ public class CourseraTestNG {
        
     }
 
-    @Test(priority=2,groups= {"regression"})
+    @Test(priority=2)
     public void testLanguageLearningCourses() {
     	langlearncourse.getTotalLanguages();
     	langlearncourse.getTotalLevels();
     	 
     }
 
-    @Test(priority=3,groups= {"regression"})
+    @Test(priority=3)
     public void testFormValidation() throws IOException {
     	formval.validateForm();
     }

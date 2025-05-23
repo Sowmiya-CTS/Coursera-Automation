@@ -18,7 +18,7 @@ public class FormValidation {
     public FormValidation(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(15)); // Initialize WebDriverWait
+        wait = new WebDriverWait(driver, Duration.ofSeconds(15)); 
     }
 
     @FindBy(xpath = "(//li[contains(@class,'SubFooterSection')])[50]/a") 
@@ -32,6 +32,7 @@ public class FormValidation {
     
     @FindBy(id = "Email") 
     WebElement emailInput;
+    
     @FindBy(className = "mktoButton") 
     WebElement submitButton;
     
@@ -49,6 +50,7 @@ public class FormValidation {
         emailInput.sendKeys(data[2]);
 
         submitButton.click();
+
         System.out.println("The displayed Error Message are :");
         System.out.println(errorMsg.getText());
     }
